@@ -1,0 +1,56 @@
+baseURL: https://jinjiakarl.github.io
+languageCode: en-us
+title: Moli
+theme: PaperMod
+
+
+enableEmoji: true
+
+languages:
+  en:
+    languageName: "English"
+    wight: 1
+    menu:
+      main:
+        # - name: Archive
+        #   url: archive
+        #   weight: 5
+        - name: About
+          url: about
+          weight: 10
+
+  # zh:
+  #   languageName: "Chinese"
+  #   wight: 2
+  #   languageAltTitle: Chinese
+  #   menu:
+  #     main:
+  #       - name: 博客
+  #         url: archive
+  #         weight: 5
+  #       - name: 关于
+  #         url: about
+  #         weight: 10
+
+
+params:
+  profileMode:
+      enabled: true
+      #title: "Moli" # optional default will be site title
+      subtitle: "Always exploring"
+      imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f9d0.svg" # optional
+      #imageTitle: "<title of image as alt>" # optional
+      #imageWidth: 120 # custom size
+      #imageHeight: 120 # custom size
+      buttons:
+        - name: CV
+          url: "./resume_no_photo.pdf"
+
+
+  socialIcons: # optional
+    - name: github
+      url: "https://github.com/jinjiakarl"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jinjia-zhang"
+    - name: email
+      url: "mailto:jinjia.zhang@aalto.fi"
